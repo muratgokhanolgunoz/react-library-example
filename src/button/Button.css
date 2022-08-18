@@ -17,6 +17,10 @@
     background-color: burlywood;
 }
 
+.Button-success {
+    background-color: green;
+}
+
 .Button-error {
     background-color: red;
 }

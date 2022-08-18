@@ -1,5 +1,5 @@
 {
-  "name": "frigian-react-ui-library",
+  "name": "react-library-example",
   "version": "1.0.0",
   "description": "",
   "main": "dist/cjs/index.js",
@@ -10,12 +10,11 @@
     "build-rollup": "rimraf dist & rollup -c rollup.config.js"
   },
   "keywords": [
-    "frigian",
     "react",
     "ui",
     "library"
   ],
-  "author": "Frigian Information Technology Services",
+  "author": "",
   "license": "ISC",
   "repository": {
     "type": "git",
@@ -51,12 +50,13 @@
     "rollup-plugin-typescript2": "^0.32.1",
     "tslib": "^2.4.0",
     "typescript": "^4.7.4",
-    "webpack": "^4.46.0"
+    "webpack": "^4.46.0",
+    "fs-extra": "^10.1.0"
   },
   "peerDependencies": {
     "react": "^18.2.0"
   },
   "dependencies": {
-    "fs-extra": "^10.1.0"
+
   }
 }
